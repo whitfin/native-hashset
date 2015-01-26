@@ -1,0 +1,32 @@
+{
+  "name": "native-hashset",
+  "version": "0.1.0",
+  "description": "Native HashSet implementation for Node/io.js",
+  "main": "./index.js",
+  "keywords": [
+    "set",
+    "hashset",
+    "distinct",
+    "datastructures"
+  ],
+  "author": {
+    "name": "Isaac Whitfield",
+    "email": "iwhitfield@appcelerator.com"
+  },
+  "homepage": "https://github.com/iwhitfield/native-hashset",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iwhitfield/native-hashset.git"
+  },
+  "scripts": {
+    "install": "node-gyp configure build",
+    "test": "make test"
+  },
+  "devDependencies": {
+    "mocha": "2.1.0"
+  },
+  "dependencies": {
+    "nan": "1.5.0"
+  }
+}
