@@ -1,7 +1,14 @@
 language: node_js
 sudo: false
 node_js:
-  - "0.11"
-  - "0.10"
-  - "0.8"
-  - "iojs"
+  - "stable"
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-4.8
+install:
+  - export CXX=g++-4.8
+  - $CXX --version
+  - npm install
