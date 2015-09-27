@@ -28,7 +28,9 @@ This works well for up to a few million items, but after that it starts to grind
 
 ## Compatibility
 
-This module is built on each commit with TravisCI on Node 0.8.x, 0.10.x and 0.11.x and the latest version of io.js. Due to a dependency on `node_internals.h` it will not compile correctly on Node 0.6.x (but if you're using that you should probably upgrade...). In order to maintain support throughout these versions the `nan` library is used for compatibility across varying Node versions.
+If you're using Node.js > v4, please use version `>= 0.2.0` of this module, all lower will fail. If you're using anything before Node.js v4, please use `< 0.2.0`.
+
+This module is built on each commit with TravisCI on the latest stable version of Node.js. In order to maintain support throughout these versions the `nan` library is used for compatibility across varying Node versions.
 
 ## Setup
 

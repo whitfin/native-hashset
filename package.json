@@ -1,6 +1,6 @@
 {
   "name": "native-hashset",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Native HashSet implementation for Node/io.js",
   "main": "./index.js",
   "keywords": [
@@ -23,10 +23,10 @@
     "install": "node-gyp configure build",
     "test": "make test"
   },
-  "devDependencies": {
-    "mocha": "2.1.0"
-  },
   "dependencies": {
-    "nan": "1.5.0"
+    "nan": "~2.0.9"
+  },
+  "devDependencies": {
+    "mocha": "2.3.3"
   }
 }
