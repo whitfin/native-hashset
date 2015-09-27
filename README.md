@@ -1,4 +1,4 @@
-native-hashset [![Build Status](https://travis-ci.org/iwhitfield/native-hashset.svg?branch=master)](https://travis-ci.org/iwhitfield/native-hashset)
+native-hashset [![Build Status](https://travis-ci.org/zackehh/native-hashset.svg?branch=master)](https://travis-ci.org/zackehh/native-hashset)
 ==============
 
 Provides a native hashset implementation for Node. Based around [node-hashset](https://github.com/inolen/node-hashset) but written using [nan](https://github.com/rvagg/nan) to provide better support for multiple Node systems (and the first io.js systems).
